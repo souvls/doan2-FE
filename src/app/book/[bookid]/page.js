@@ -242,7 +242,7 @@ const page = () => {
                   <p>Description : <span className=''>{book.Description}</span></p>
                   <div className='flex justify-start gap-2'>
                     <button onClick={handdleFavourite} className={`p-2 border rounded-lg flex justify-center items-center gap-2 ${isFavourite ? 'bg-pink-500 text-white' : 'bg-white text-pink-500'}`}>Favourite <FaHeart className={`${isFavourite ? 'bg-pink-500 text-white' : 'bg-white text-pink-500'}`} /></button>
-                    <button className='p-2 border rounded-lg flex justify-center items-center gap-2 bg-blue-500 text-white'>Bookmark <FaBookBookmark /></button>
+  {/* <button className='p-2 border rounded-lg flex justify-center items-center gap-2 bg-blue-500 text-white'>Bookmark <FaBookBookmark /></button> */}
                   </div>
                 </div>
                 <div>
